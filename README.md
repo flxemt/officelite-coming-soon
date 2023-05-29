@@ -6,7 +6,7 @@ This is a solution to the [Officelite coming soon site challenge on Frontend Men
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,14 +26,15 @@ Users should be able to:
 - **Bonus**: See a live countdown timer that ticks down every second
 - **Bonus**: See a custom-styled `select` form control in the sign-up form
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/76Ze9XA.png)
+![](https://i.imgur.com/UdkJBIu.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/officelite-coming-soon-using-tailwind-css-OEd5xxX2m1](https://www.frontendmentor.io/solutions/officelite-coming-soon-using-tailwind-css-OEd5xxX2m1)
+- Live Site URL: [https://officelite-pages.netlify.app/](https://officelite-pages.netlify.app/)
 
 ## My process
 
