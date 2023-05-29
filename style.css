@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form input:focus {
+  outline: none;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #5175ff;
+  transform: scale(0);
+  transition: transform 0.2s;
+}
+
+.input-group:focus-within::after {
+  transform: scale(1);
+}
+
+.select-body {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(5px);
+  transition: transform 0.2s, opacity 0.2s, visibility 0.2s;
+}
+
+.select-body-show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.input-error::after {
+  transform: scale(1);
+  background-color: #f05b5b;
+}
+
+.input-error input,
+.input-error input::placeholder {
+  color: #f05b5b;
+}
+
+.input-error input {
+  background: url('/sign-up/icon-cross.svg') no-repeat top 4px right 20px;
+  padding-right: 4rem;
+}
+
+@media (min-width: 768px) {
+  .sign-up {
+    background-image: none;
+  }
+}
